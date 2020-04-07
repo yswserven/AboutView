@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.FlowLayoutActivity"></activity>
+        <activity android:name=".ui.PhotoViewActivity"></activity>
+        <activity android:name=".ui.NumberProgressActivity" />
+        <activity android:name=".ui.WeatherActivity" />
+        <activity android:name=".ui.ScrollerRulerActivity" />
+        <activity android:name=".ui.FlowLayoutActivity" />
         <activity android:name=".ui.ViewGroupActivity" />
         <activity android:name=".ui.PasswordActivity" />
         <activity android:name=".ui.AntsCreditActivity" />

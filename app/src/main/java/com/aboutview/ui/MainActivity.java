@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.bt_wave, R.id.bt_pieChart, R.id.bt_dataView, R.id.bt_progress, R.id.bt_lineChart, R.id.bt_antsCredit, R.id.bt_password,
-            R.id.bt_viewGroup, R.id.bt_flowLayout})
+            R.id.bt_viewGroup, R.id.bt_flowLayout, R.id.bt_scrollerRuler, R.id.bt_weather, R.id.bt_numberProgress, R.id.bt_photoView})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.bt_wave:
@@ -49,6 +49,18 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_flowLayout:
                 startActivity(new Intent(MainActivity.this, FlowLayoutActivity.class));
+                break;
+            case R.id.bt_scrollerRuler:
+                startActivity(new Intent(MainActivity.this, ScrollerRulerActivity.class));
+                break;
+            case R.id.bt_weather:
+                startActivity(new Intent(MainActivity.this, WeatherActivity.class));
+                break;
+            case R.id.bt_numberProgress:
+                startActivity(new Intent(MainActivity.this, NumberProgressActivity.class));
+                break;
+            case R.id.bt_photoView:
+                startActivity(new Intent(MainActivity.this, PhotoViewActivity.class));
                 break;
         }
 

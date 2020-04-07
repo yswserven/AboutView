@@ -15,73 +15,79 @@
             android:id="@+id/bt_wave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="水波纹界面">
-
-        </Button>
+            android:text="水波纹界面" />
 
         <Button
             android:id="@+id/bt_pieChart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="饼图界面">
-
-        </Button>
+            android:text="饼图界面" />
 
         <Button
             android:id="@+id/bt_dataView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="日期界面">
-
-        </Button>
+            android:text="日期界面" />
 
         <Button
             android:id="@+id/bt_progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="进度条界面">
-
-        </Button>
+            android:text="进度条界面" />
 
         <Button
             android:id="@+id/bt_lineChart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="图表界面">
-
-        </Button>
+            android:text="图表界面" />
 
         <Button
             android:id="@+id/bt_antsCredit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="支付宝个人信用界面">
-
-        </Button>
+            android:text="支付宝个人信用界面" />
 
         <Button
             android:id="@+id/bt_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="支付密码界面">
-
-        </Button>
+            android:text="支付密码界面" />
 
         <Button
             android:id="@+id/bt_viewGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ViewGroup滑动界面">
+            android:text="ViewGroup滑动界面" />
 
-        </Button>
         <Button
             android:id="@+id/bt_flowLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="流式布局界面">
+            android:text="流式布局界面" />
 
-        </Button>
+        <Button
+            android:id="@+id/bt_scrollerRuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标尺滑动界面" />
 
+        <Button
+            android:id="@+id/bt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天气界面" />
+
+        <Button
+            android:id="@+id/bt_numberProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数字进度条界面" />
+
+        <Button
+            android:id="@+id/bt_photoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PhotoView界面" />
 
 
     </LinearLayout>
