@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aboutview">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.FlowLayoutActivity"></activity>
+        <activity android:name=".ui.ViewGroupActivity" />
+        <activity android:name=".ui.PasswordActivity" />
+        <activity android:name=".ui.AntsCreditActivity" />
+        <activity android:name=".ui.LineChartActivity" />
+        <activity android:name=".ui.ProgressBarActivity" />
+        <activity android:name=".ui.DataViewActivity" />
+        <activity android:name=".ui.PieChartActivity" />
+        <activity android:name=".ui.WaveViewActivity" />
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

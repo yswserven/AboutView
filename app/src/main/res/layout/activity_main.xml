@@ -1,18 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/bt_wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水波纹界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_pieChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="饼图界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_dataView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进度条界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_lineChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图表界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_antsCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝个人信用界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付密码界面">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_viewGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ViewGroup滑动界面">
+
+        </Button>
+        <Button
+            android:id="@+id/bt_flowLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流式布局界面">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
